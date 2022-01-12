@@ -1,4 +1,4 @@
-# Telegram Movie Bot
+# Megatron Movie Bot
 
 ## Features
 
@@ -119,7 +119,7 @@ python3 bot.py
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/Kdrama_EnglishSubbed)
 
 ## Credits 
-* [![Zaute-Km](https://img.shields.io/static/v1?label=Dingdi-Dev&message=devs&color=critical)](https://telegram.dog/zautebot)
+* [![Miles](https://img.shields.io/static/v1?label=Dingdi-Dev&message=devs&color=critical)](https://t.me/Miles_Christian)
 
 
 ## Thanks to 
