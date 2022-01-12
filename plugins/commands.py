@@ -22,7 +22,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('updates', url='https://t.me/josprojects')
+                InlineKeyboardButton('updates', url='https://t.me/MovieX_Towns')
             ],
             [
                 InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -47,13 +47,15 @@ async def start(client, message):
             InlineKeyboardButton('help', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('movie group', switch_inline_query_current_chat='https://t.me/MovieX_Town')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('Kdrama Channel', url='https://t.me/Kdrama_EnglishSubbed'),
+            InlineKeyboardButton('Youtube Downloader', url='https://t.me/Megatronxbot')
+            ],[
+            InlineKeyboardButton('Chat Group', switch_inline_query_current_chat='https://t.me/luv_love_town')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
-        ]]
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -139,11 +141,11 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                    InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+                    InlineKeyboardButton('Movie Group', url='https://t.me/MovieX_Town'),
+                    InlineKeyboardButton('Chat Group', url='https://t.me/luv_love_town')
                 ],
                 [
-                    InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                    InlineKeyboardButton('Kdrama Channel', url=f'https://t.me/Kdrama_EnglishSubbed')
                 ]
                 ]
             try:
@@ -222,13 +224,13 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     buttons = [
-        [
-            InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('channel', url='https://t.me/JosProjects')
-        ],
-        [
-            InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
-        ]
+                [
+                    InlineKeyboardButton('Movie Group', url='https://t.me/MovieX_Town'),
+                    InlineKeyboardButton('Chat Group', url='https://t.me/luv_love_town')
+                ],
+                [
+                    InlineKeyboardButton('Kdrama Channel', url=f'https://t.me/Kdrama_EnglishSubbed')
+                ]
         ]
     await client.send_cached_media(
         chat_id=message.from_user.id,
