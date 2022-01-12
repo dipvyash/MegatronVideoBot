@@ -96,10 +96,10 @@ async def start(client, message):
             InlineKeyboardButton('help', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='https://t.me/MovieX_Town')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('Chat Group', url='https://t.me/luv_love_town'),
+            InlineKeyboardButton('Kdrama Chanell', url='https://t.me/Kdrama_EnglishSubbed')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
