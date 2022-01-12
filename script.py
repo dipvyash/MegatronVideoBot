@@ -21,7 +21,7 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+Source: <a href='https://github.com/dipvyash/tgmoviebot'>GitHub - Click here 👈</a>
 
 <b>DEVS:</b>
 - <a href='https://t.me/luv_love_town'>Support Group</a>
@@ -250,7 +250,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+<code>/short https://t.me/MovieX_Town</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
